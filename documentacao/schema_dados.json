@@ -1,0 +1,400 @@
+{
+  "entidades": {
+    "ocorrencias_base": {
+      "linhas": 1465,
+      "chave": [
+        "ocorrencia_id"
+      ],
+      "tipos": {
+        "ocorrencia_id": "string",
+        "source_index": "Int64",
+        "product_id": "string",
+        "product_name": "string",
+        "category": "string",
+        "discounted_price": "string",
+        "actual_price": "string",
+        "discount_percentage": "string",
+        "rating": "string",
+        "rating_count": "string",
+        "about_product": "string",
+        "user_id": "string",
+        "user_name": "string",
+        "review_id": "string",
+        "review_title": "string",
+        "review_content": "string",
+        "img_link": "string",
+        "product_link": "string",
+        "grupo_textual_id": "string"
+      },
+      "nulos": {
+        "ocorrencia_id": 0,
+        "source_index": 0,
+        "product_id": 0,
+        "product_name": 0,
+        "category": 0,
+        "discounted_price": 0,
+        "actual_price": 0,
+        "discount_percentage": 0,
+        "rating": 0,
+        "rating_count": 2,
+        "about_product": 0,
+        "user_id": 0,
+        "user_name": 0,
+        "review_id": 0,
+        "review_title": 0,
+        "review_content": 0,
+        "img_link": 0,
+        "product_link": 0,
+        "grupo_textual_id": 0
+      }
+    },
+    "categorias": {
+      "linhas": 211,
+      "chave": [
+        "categoria_id"
+      ],
+      "tipos": {
+        "categoria_id": "string",
+        "category_original": "string",
+        "categoria_nivel_1": "string",
+        "categoria_nivel_2": "string",
+        "categoria_nivel_3": "string",
+        "categoria_nivel_4": "string",
+        "categoria_nivel_5": "string",
+        "categoria_nivel_6": "string",
+        "categoria_nivel_7": "string",
+        "categoria_macro_original": "string",
+        "categoria_especifica": "string",
+        "profundidade_categoria": "Int64",
+        "categoria_macro_ml": "string",
+        "metodo_macro_ml": "string",
+        "versao_macro_ml": "string",
+        "status_macro_ml": "string"
+      },
+      "nulos": {
+        "categoria_id": 0,
+        "category_original": 0,
+        "categoria_nivel_1": 0,
+        "categoria_nivel_2": 0,
+        "categoria_nivel_3": 4,
+        "categoria_nivel_4": 37,
+        "categoria_nivel_5": 143,
+        "categoria_nivel_6": 192,
+        "categoria_nivel_7": 204,
+        "categoria_macro_original": 0,
+        "categoria_especifica": 0,
+        "profundidade_categoria": 0,
+        "categoria_macro_ml": 211,
+        "metodo_macro_ml": 211,
+        "versao_macro_ml": 211,
+        "status_macro_ml": 0
+      }
+    },
+    "produtos": {
+      "linhas": 1351,
+      "chave": [
+        "product_id"
+      ],
+      "tipos": {
+        "product_id": "string",
+        "product_name": "string",
+        "about_product": "string",
+        "product_link": "string",
+        "img_link": "string",
+        "source_index_referencia": "Int64",
+        "actual_price_num": "Float64",
+        "discounted_price_num": "Float64",
+        "discount_percentage_num": "Float64",
+        "rating_num": "Float64",
+        "rating_count_num": "Int64",
+        "rating_analitico_num": "Float64",
+        "rating_estimado": "boolean",
+        "metodo_estimativa_rating": "string",
+        "rating_count_analitico_num": "Int64",
+        "rating_count_estimado": "boolean",
+        "metodo_estimativa_rating_count": "string",
+        "rating_count_situacao": "string",
+        "quantidade_ocorrencias_origem": "Int64",
+        "conflito_preco_original": "boolean",
+        "conflito_preco_desconto": "boolean",
+        "conflito_percentual": "boolean",
+        "conflito_contagem": "boolean",
+        "conflito_descricao": "boolean",
+        "conflito_imagem": "boolean",
+        "criterio_selecao_referencia": "string",
+        "ocorrencia_id_referencia": "string",
+        "categoria_id": "string"
+      },
+      "nulos": {
+        "product_id": 0,
+        "product_name": 0,
+        "about_product": 0,
+        "product_link": 0,
+        "img_link": 0,
+        "source_index_referencia": 0,
+        "actual_price_num": 0,
+        "discounted_price_num": 0,
+        "discount_percentage_num": 0,
+        "rating_num": 1,
+        "rating_count_num": 2,
+        "rating_analitico_num": 0,
+        "rating_estimado": 0,
+        "metodo_estimativa_rating": 1350,
+        "rating_count_analitico_num": 0,
+        "rating_count_estimado": 0,
+        "metodo_estimativa_rating_count": 1349,
+        "rating_count_situacao": 0,
+        "quantidade_ocorrencias_origem": 0,
+        "conflito_preco_original": 0,
+        "conflito_preco_desconto": 0,
+        "conflito_percentual": 0,
+        "conflito_contagem": 0,
+        "conflito_descricao": 0,
+        "conflito_imagem": 0,
+        "criterio_selecao_referencia": 0,
+        "ocorrencia_id_referencia": 0,
+        "categoria_id": 0
+      }
+    },
+    "usuarios": {
+      "linhas": 9050,
+      "chave": [
+        "user_id"
+      ],
+      "tipos": {
+        "user_id": "string",
+        "quantidade_reviews_distintos": "int64",
+        "user_name_recuperado": "string",
+        "aparece_em_nome_ambiguo": "boolean",
+        "situacao_nome": "string"
+      },
+      "nulos": {
+        "user_id": 0,
+        "quantidade_reviews_distintos": 0,
+        "user_name_recuperado": 53,
+        "aparece_em_nome_ambiguo": 0,
+        "situacao_nome": 0
+      }
+    },
+    "reviews": {
+      "linhas": 9269,
+      "chave": [
+        "review_id"
+      ],
+      "tipos": {
+        "review_id": "string",
+        "user_id": "string",
+        "quantidade_ocorrencias": "int64",
+        "quantidade_produtos_associados": "int64",
+        "review_title": "string",
+        "ocorrencia_titulo_referencia_id": "string",
+        "status_recuperacao_titulo": "string",
+        "review_title_candidato": "string",
+        "quantidade_evidencias_titulo": "Int64",
+        "quantidade_alternativas_titulo": "Int64",
+        "review_content": "string",
+        "ocorrencia_conteudo_referencia_id": "string",
+        "status_recuperacao_conteudo": "string",
+        "review_content_candidato": "string",
+        "quantidade_evidencias_conteudo": "Int64",
+        "quantidade_alternativas_conteudo": "Int64",
+        "metodo_recuperacao": "string",
+        "status_consistencia": "string",
+        "divergencia_metodos_titulo": "boolean",
+        "ambiguidade_titulo": "boolean",
+        "divergencia_entre_ocorrencias_titulo": "boolean",
+        "divergencia_metodos_conteudo": "boolean",
+        "ambiguidade_conteudo": "boolean",
+        "divergencia_entre_ocorrencias_conteudo": "boolean",
+        "divergencia_entre_ocorrencias": "boolean",
+        "conflito_confirmado": "boolean",
+        "hash_texto_recuperado": "string",
+        "elegivel_ml_textual": "boolean",
+        "grupo_uso_textual": "string"
+      },
+      "nulos": {
+        "review_id": 0,
+        "user_id": 0,
+        "quantidade_ocorrencias": 0,
+        "quantidade_produtos_associados": 0,
+        "review_title": 9062,
+        "ocorrencia_titulo_referencia_id": 9062,
+        "status_recuperacao_titulo": 0,
+        "review_title_candidato": 624,
+        "quantidade_evidencias_titulo": 0,
+        "quantidade_alternativas_titulo": 0,
+        "review_content": 9059,
+        "ocorrencia_conteudo_referencia_id": 9059,
+        "status_recuperacao_conteudo": 0,
+        "review_content_candidato": 3647,
+        "quantidade_evidencias_conteudo": 0,
+        "quantidade_alternativas_conteudo": 0,
+        "metodo_recuperacao": 9023,
+        "status_consistencia": 0,
+        "divergencia_metodos_titulo": 0,
+        "ambiguidade_titulo": 0,
+        "divergencia_entre_ocorrencias_titulo": 0,
+        "divergencia_metodos_conteudo": 0,
+        "ambiguidade_conteudo": 0,
+        "divergencia_entre_ocorrencias_conteudo": 0,
+        "divergencia_entre_ocorrencias": 0,
+        "conflito_confirmado": 0,
+        "hash_texto_recuperado": 9023,
+        "elegivel_ml_textual": 0,
+        "grupo_uso_textual": 0
+      }
+    },
+    "vinculos_reviews": {
+      "linhas": 11503,
+      "chave": [
+        "ocorrencia_id",
+        "posicao_na_linha"
+      ],
+      "tipos": {
+        "ocorrencia_id": "string",
+        "source_index": "Int64",
+        "product_id": "string",
+        "posicao_na_linha": "int64",
+        "review_id": "string",
+        "user_id": "string"
+      },
+      "nulos": {
+        "ocorrencia_id": 0,
+        "source_index": 0,
+        "product_id": 0,
+        "posicao_na_linha": 0,
+        "review_id": 0,
+        "user_id": 0
+      }
+    }
+  },
+  "testes": [
+    "PK ocorrencias_base",
+    "PK categorias",
+    "PK produtos",
+    "PK usuarios",
+    "PK reviews",
+    "PK vinculos_reviews",
+    "FK produtos.categoria_id",
+    "FK ocorrencias_base.product_id",
+    "FK produtos.ocorrencia_id_referencia",
+    "FK reviews.user_id",
+    "FK vinculos_reviews.ocorrencia_id",
+    "FK vinculos_reviews.review_id",
+    "FK vinculos_reviews.product_id",
+    "FK vinculos_reviews.user_id",
+    "FK reviews.ocorrencia_titulo_referencia_id",
+    "FK reviews.ocorrencia_conteudo_referencia_id",
+    "origem literal e posição",
+    "hierarquia e referências comerciais",
+    "listas recompostas e posições",
+    "redundâncias reconciliadas",
+    "contagens por entidade",
+    "grupos exatos",
+    "contrato ML sem previsões",
+    "origens textuais"
+  ],
+  "cobertura": {
+    "reviews": 9269,
+    "titulo": 207,
+    "conteudo": 210,
+    "ambos": 171,
+    "parcial": 75,
+    "sem_texto": 9023,
+    "titulo_candidato": 8645,
+    "conteudo_candidato": 5622,
+    "evidencia_cruzada": 95,
+    "ambiguos": 1166,
+    "conflitos": 0,
+    "elegiveis": 70,
+    "maior_confianca": 70,
+    "exploratorio": 101,
+    "divergencia_metodos": 681,
+    "ambiguidade_segmentacao": 1172,
+    "divergencia_entre_ocorrencias": 21,
+    "conflitos_confirmados": 0
+  },
+  "fks": [
+    [
+      "produtos",
+      "categoria_id",
+      "categorias",
+      "categoria_id",
+      false
+    ],
+    [
+      "ocorrencias_base",
+      "product_id",
+      "produtos",
+      "product_id",
+      false
+    ],
+    [
+      "produtos",
+      "ocorrencia_id_referencia",
+      "ocorrencias_base",
+      "ocorrencia_id",
+      false
+    ],
+    [
+      "reviews",
+      "user_id",
+      "usuarios",
+      "user_id",
+      false
+    ],
+    [
+      "vinculos_reviews",
+      "ocorrencia_id",
+      "ocorrencias_base",
+      "ocorrencia_id",
+      false
+    ],
+    [
+      "vinculos_reviews",
+      "review_id",
+      "reviews",
+      "review_id",
+      false
+    ],
+    [
+      "vinculos_reviews",
+      "product_id",
+      "produtos",
+      "product_id",
+      false
+    ],
+    [
+      "vinculos_reviews",
+      "user_id",
+      "usuarios",
+      "user_id",
+      false
+    ],
+    [
+      "reviews",
+      "ocorrencia_titulo_referencia_id",
+      "ocorrencias_base",
+      "ocorrencia_id",
+      true
+    ],
+    [
+      "reviews",
+      "ocorrencia_conteudo_referencia_id",
+      "ocorrencias_base",
+      "ocorrencia_id",
+      true
+    ]
+  ],
+  "contrato_ml": {
+    "classificacao_id": "string",
+    "review_id": "string",
+    "assunto": "string",
+    "polaridade": "string",
+    "trecho_evidencia": "string",
+    "score_modelo": "Float64",
+    "metodo": "string",
+    "versao_modelo": "string",
+    "status_validacao": "string"
+  }
+}

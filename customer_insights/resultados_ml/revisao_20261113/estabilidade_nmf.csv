@@ -1,0 +1,7 @@
+﻿Perturbação,semente,grupos_ajuste,cosseno_temas_alinhados,ARI_atribuicao_global
+Semente; mesmo corpus/vocabulário,7,1212,0.9999993184806735,0.9976439909788497
+Semente; mesmo corpus/vocabulário,99,1212,0.9999999981591003,1.0
+80% componentes; TF-IDF reajustado,42,967,0.8729697528640535,0.8452021988176913
+80% componentes; TF-IDF reajustado,7,969,0.8941797897180912,0.7256344944387338
+80% componentes; TF-IDF reajustado,99,967,0.8915071593370708,0.6934181583703576
+Sem sete termos genéricos,42,1212,0.8249832616886762,0.5143952738322504

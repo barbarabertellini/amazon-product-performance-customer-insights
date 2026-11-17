@@ -1,0 +1,28 @@
+# Ambiente local
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+kaggle.json
+*.pem
+*.key
+# Temporários, exportações e backups
+backups/
+proposta_02_*/
+EXPERIMENTO_PROVISORIO*/
+*.tmp
+*.log
+~$*
+# Versões e planejamento local fora do portfólio final
+/planejamento_power_bi_manual/
+/power_bi/amazon_projeto/
+/power_bi/01_plano_modelo_power_bi.md
+/power_bi/02_roteiro_importacao_modelo.md
+/power_bi/Contextualizador_Etapa_06_Power_BI_Amazon_v1.0.txt
+/eda_estrutural/relatorio_refinamento_eda_estrutural.md
+/documentacao/README.md
+/documentacao/relatorio_qualidade_reestruturacao.md
+

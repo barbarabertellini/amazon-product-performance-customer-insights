@@ -1,0 +1,34 @@
+﻿product_id,Aspecto lido,Objeto lido,Leitura,Campo,Excerto lido,grupo_textual_id,Aspecto N04,Início,Fim,Regra N04 no excerto,Regra N04 no grupo,Contextual sobrepõe,Objeto candidato,Polaridade candidata
+B01LONQBDG,Compatibilidade,cabo e telefones,Favorável,review_content,"You can easily transfer files between two android phones, one with micro USB port and the other with USB C.",TXT-000295,Compatibilidade,175,282,True,True,True,conector ou cabo,Indeterminada
+B01LONQBDG,Acabamento,cabo,Desfavorável,review_content,it had yellow stains on it,TXT-000295,Acabamento,396,422,True,True,True,material ou superfície,Desfavorável candidata
+B01LONQBDG,Espessura,cabo,Desfavorável,review_content,The cable could have been thicker.,TXT-000295,Espessura,1385,1419,__AUSENTE__,__AUSENTE__,False,,
+B071SDRGWL,Durabilidade,cabo,Favorável,review_content,it almost last three years post heavy usage,TXT-000030,Durabilidade,266,309,False,True,False,,
+B071SDRGWL,Carregamento,cabo e aparelho,Favorável,review_content,enables Fast Charging for Samsung M21 as well as M33 5G 24 W seeking phones,TXT-000030,Autonomia e carga,390,465,True,True,True,equipamento conectado,Favorável candidata
+B071SDRGWL,Comprimento,variante do cabo,Insuficiente,review_content,2 metre cable length helpful,TXT-000030,Comprimento,467,495,__AUSENTE__,__AUSENTE__,False,,
+B07JQKQ91F,Encaixe,fone,Favorável,review_content,Fitting in ear is perfect,TXT-000602,Uso e conforto,154,179,True,True,True,encaixe ou uso,Favorável candidata
+B07JQKQ91F,Graves,fone,Desfavorável,review_content,the bass was not up to mark,TXT-000602,Áudio e chamadas,1543,1570,True,True,True,áudio do dispositivo,Desfavorável candidata
+B07JQKQ91F,Durabilidade,fone,Insuficiente,review_content,I can't comment on its durability,TXT-000602,Durabilidade,58,91,True,True,True,produto ou componente,Insuficiente candidata
+B07JQKQ91F,Funcionamento,fone,Desfavorável,review_content,"Unable to hear after, 8 months",TXT-000602,Funcionamento,424,454,False,True,True,componente ou produto,Desfavorável candidata
+B01F25X6RQ,Som,fone,Favorável,review_content,The sound quality is excellent for the price,TXT-000467,Áudio e chamadas,0,44,True,True,True,áudio do dispositivo,Favorável candidata
+B01F25X6RQ,Material,fone,Desfavorável,review_content,the material quality isn't good,TXT-000467,Acabamento,85,116,True,True,True,material ou superfície,Desfavorável candidata
+B01F25X6RQ,Microfone,fone,Favorável,review_content,mic works well during the call.,TXT-000467,Áudio e chamadas,531,562,True,True,True,áudio do dispositivo,Favorável candidata
+B01F25X6RQ,Graves,fone,Desfavorável,review_content,Less bass,TXT-000467,Áudio e chamadas,160,169,True,True,True,áudio do dispositivo,Desfavorável candidata
+B01F25X6RQ,Graves,fone,Favorável,review_content,Treble and bass are balanced well.,TXT-000467,Áudio e chamadas,470,504,True,True,True,áudio do dispositivo,Favorável candidata
+B076VQS87V,Cabo,ferro,Desfavorável,review_content,Cord is too short,TXT-001448,Cabo,0,17,__AUSENTE__,__AUSENTE__,False,,
+B076VQS87V,Uso,ferro,Favorável,review_content,Like the product great quality and easy to use,TXT-001448,Uso e conforto,51,97,True,True,True,encaixe ou uso,Favorável candidata
+B076VQS87V,Peso,ferro,Favorável,review_content,Light weight working good,TXT-001448,Uso e conforto,110,135,True,True,False,,
+B076VQS87V,Acabamento,ferro,Desfavorável,review_title,There was one scratch on the surface which was hide under the sticker,TXT-001448,Acabamento,141,210,True,True,True,material ou superfície,Desfavorável candidata
+B009P2L7CO,Peso,ferro,Insuficiente,review_content,Weight is reduced a bit,TXT-001210,Uso e conforto,14,37,True,True,False,,
+B009P2L7CO,Entrega,estado na entrega,Desfavorável,review_content,Damage product deliveredTwo times,TXT-001210,Entrega e embalagem,38,71,True,True,True,estado na entrega,Desfavorável candidata
+B009P2L7CO,Funcionamento,ferro,Favorável,review_content,works fine even after 4 months,TXT-001210,Funcionamento,72,102,True,True,True,componente ou produto,Favorável candidata
+B09JS562TP,Autonomia,celular,Favorável,review_content,Battery lasted for 15+ days with low-medium usage.,TXT-000456,Autonomia e carga,196,246,True,True,True,dispositivo em uso,Indeterminada
+B09JS562TP,Chamadas,celular,Desfavorável,review_content,rating everything is okay except voice sound during call,TXT-000456,Áudio e chamadas,0,56,True,True,False,,
+B09JS562TP,Carregador,acessório,Desfavorável,review_content,charger quality bad,TXT-000456,Autonomia e carga,118,137,True,True,True,carregador,Desfavorável candidata
+B09JS562TP,Áudio FM,celular,Desfavorável,review_content,There is some disturbance in the sound While using wireless FM,TXT-000456,Áudio e chamadas,419,481,True,True,True,áudio do dispositivo,Desfavorável candidata
+B09YDFDVNS,Teclado,celular,Desfavorável,review_content,it takes more than 1 attempt sometimes to perform OK action.,TXT-000346,Uso e conforto,819,879,False,False,False,,
+B09YDFDVNS,Autonomia,celular,Favorável,review_content,Superb battery life for more then 3 days,TXT-000346,Autonomia e carga,118,158,True,True,True,dispositivo em uso,Indeterminada
+B09YDFDVNS,Autonomia,celular,Desfavorável,review_content,Battery backup bad,TXT-000346,Autonomia e carga,880,898,True,True,True,dispositivo em uso,Indeterminada
+B096NTB9XT,Sabor,água,Favorável,review_content,taste is also good,TXT-001326,Sabor,38,56,__AUSENTE__,__AUSENTE__,False,,
+B096NTB9XT,Instalação,purificador,Favorável,review_content,Esy to install,TXT-001326,Instalação e manutenção,894,908,True,True,True,instalação ou serviço,Indeterminada
+B096NTB9XT,Entrada e indicador,purificador,Desfavorável,review_content,the inlet stops taking water but the indicator shows tank filling!,TXT-001326,Funcionamento,297,363,False,True,True,componente ou produto,Desfavorável candidata
+B096NTB9XT,Atendimento,serviço,Favorável,review_content,Good service,TXT-001326,Atendimento,0,12,True,True,True,serviço,Indeterminada
